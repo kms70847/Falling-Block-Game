@@ -3,25 +3,29 @@ Falling-Block-Game
 
 A challenging arcade style game, where you must clear lines of geometric shapes that fall from above.
 
+#Dependencies
+Requires Pygame to play.  
+Requires PIL to generate piece sprites from scratch.
+
 #Controls
 
 ##All screens
 Escape - quit.
 
 ##Menus
-Up - move cursor up.
-Down - move cursor down.
-Enter - confirm selection.
+Up - move cursor up.  
+Down - move cursor down.  
+Enter - confirm selection.  
 
 ##Gameplay
-Left - move piece left
-Right - move piece right
-Up - store current piece in "Hold" window, switching with piece already there, if one exists.
-Down - move piece down, or lock in place if it can't move any further.
-space - rotate piece counter-clockwise.
-z - rotate piece counter-clockwise.
-x - roate piece clockwise.
-Enter - drop piece as far as it will go without locking it in place.
+Left - move piece left  
+Right - move piece right  
+Up - store current piece in "Hold" window, switching with piece already there, if one exists.  
+Down - move piece down, or lock in place if it can't move any further.  
+space - rotate piece counter-clockwise.  
+z - rotate piece counter-clockwise.  
+x - roate piece clockwise.  
+Enter - drop piece as far as it will go without locking it in place.  
 
 #Credits
 
