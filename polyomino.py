@@ -48,7 +48,7 @@ def make_polyomino(letter):
     factory function that makes polyominos based on a single character.
     valid characters: I J L O S T Z
     """
-    with open("pieces/{}.txt".format(letter)) as file:
+    with open("pieces/{}.txt".format(letter.upper())) as file:
         data = file.read()
         frames = data.split("\n\n")
         assert len(frames) == 4, "expected exactly four orientation frames"
