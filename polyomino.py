@@ -49,7 +49,7 @@ def make_polyomino(letter):
     valid characters: I J L O S T Z
     """
     with open("pieces/{}.txt".format(letter.upper())) as file:
-        data = file.read()
+        data = file.read().replace("\r", "")
         frames = data.split("\n\n")
         assert len(frames) == 4, "expected exactly four orientation frames"
         p = Polyomino()
