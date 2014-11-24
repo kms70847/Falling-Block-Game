@@ -1,6 +1,5 @@
 todo
 
-decide licensing for code and sfx
 fix sound problem: volume of rotation sfx varies from inaudible to loud
 find Korobeiniki performance with favorable license, that loops nicely
 center image of piece in "preview" and "hold" windows
